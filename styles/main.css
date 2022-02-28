@@ -3,7 +3,7 @@
 :root {
     --color-primary: #00A550;
     --color-secondary: #337070;
-    --color-extra: #FFFFFF;
+    --color-extra: #C7DCD1;
 }
 
 * {
@@ -22,10 +22,10 @@ ul {
     list-style: none;
 }
 
-p {
+/* p {
     margin: 5px 0;
     line-height: 1.7;
-}
+} */
 
 .navbar {
     width: 100%;
@@ -48,11 +48,15 @@ p {
 }
 
 .navbar li {
-    margin: 0 15px;
+    margin: 0 30px;
     font-weight: 500;
 }
 
 .navbar a {
     color: #000;
     text-decoration: none;
+}
+
+.navbar a:hover {
+    color: var(--color-primary);
 }
