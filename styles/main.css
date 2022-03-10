@@ -60,3 +60,14 @@ ul {
 .navbar a:hover {
     color: var(--color-primary);
 }
+
+/* Box */
+.box {
+    margin-bottom: 31px;
+}
+
+/* Backgrounds */
+.bg-primary {
+    background-color: var(--color-primary);
+    color: #fff;
+}
