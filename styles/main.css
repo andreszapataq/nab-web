@@ -82,16 +82,17 @@ img {
 }
 
 /* Box */
-.box {
+.box, .box-in {
+    min-height: 350px;
     margin-bottom: 31px;
 }
 
-.box-a, .box-b, .box-d, .box-e, .box-in {
-    height: 350px;
-}
-
 .box-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     max-width: 700px;
+    height: 350px;
     margin: 0 auto;
 }
 
@@ -125,14 +126,17 @@ img {
 /* Buttons */
 .btn {
     cursor: pointer;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: none;
     border: 1px #000 solid;
     border-radius: 50px;
-    padding: 7px 16px;
-    line-height: 1.2;
-    text-align: center;
     text-decoration: none;
+    width: 212px;
+    height: 47px;
+    margin: 0 auto;
+    font-size: 18px;
 }
 
 .btn-white {
@@ -143,6 +147,17 @@ img {
 .btn-black {
     border-color: #000;
     color: #000;
+}
+
+.btn-white:hover {
+    background-color: rgba(199, 220, 209, 0.2);
+
+}
+
+.btn-black:hover {
+    background-color: rgba(51, 112, 112, 0.2);
+
+
 }
 
 /* Backgrounds */
@@ -171,7 +186,7 @@ img {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600;
-    margin: 20px 0;
+    /* margin: 20px 0; */
 }
 
 .text-md {
@@ -180,6 +195,10 @@ img {
     letter-spacing: 1px;
     font-weight: 500;
     margin: 20px 0;
+}
+
+.text-sm {
+    font-size: 25px;
 }
 
 /* Padding */
@@ -198,4 +217,8 @@ img {
 /* Footer */
 .social i {
     font-size: 35px;
+}
+
+.social i:hover {
+    color: #1877F2;
 }
