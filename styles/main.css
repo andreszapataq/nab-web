@@ -313,3 +313,16 @@ footer {
 .social i:hover {
     color: #1877F2;
 }
+
+/* Media Queries */
+@media(min-width: 1440px) {
+    .box {
+        max-width: 1440px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /* .divider {
+        max-width: 95%;
+    } */
+}
