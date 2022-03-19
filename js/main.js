@@ -14,16 +14,31 @@ findUs.addEventListener('mouseover', addBounce)
 findUs.addEventListener('mouseout', removeBounce)
 
 // Contact Icon Effect
-const contactItem = document.getElementById('contact-item')
-const contactIcon = document.getElementById('fa-contact-icon')
+const addressItem = document.getElementById('address-item')
+const phoneItem = document.getElementById('phone-item')
+const emailItem = document.getElementById('email-item')
+
+const addressIcon = document.getElementById('fa-building')
+const phoneIcon = document.getElementById('fa-mobile-screen-button')
+const emailIcon = document.getElementById('fa-envelope')
 
 function addFade() {
-    contactIcon.classList.add('fa-fade')
+    addressIcon.classList.add('fa-fade')
+    phoneIcon.classList.add('fa-fade')
+    emailIcon.classList.add('fa-fade')
 }
 
 function removeFade() {
-    contactIcon.classList.remove('fa-fade')
+    addressIcon.classList.remove('fa-fade')
+    phoneIcon.classList.remove('fa-fade')
+    emailIcon.classList.remove('fa-fade')
 }
 
-contactItem.addEventListener('mouseover', addFade)
-contactItem.addEventListener('mouseout', removeFade)
+addressItem.addEventListener('mouseover', addFade)
+addressItem.addEventListener('mouseout', removeFade)
+
+phoneItem.addEventListener('mouseover', addFade)
+phoneItem.addEventListener('mouseout', removeFade)
+
+emailItem.addEventListener('mouseover', addFade)
+emailItem.addEventListener('mouseout', removeFade)

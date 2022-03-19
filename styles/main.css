@@ -17,6 +17,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
     color: #000;
+    scroll-behavior: smooth;
 }
 
 ul {
@@ -316,7 +317,7 @@ footer {
 
 /* Media Queries */
 @media(min-width: 1440px) {
-    .box {
+    .box, .box-c {
         max-width: 1440px;
         margin-right: auto;
         margin-left: auto;
