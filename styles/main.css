@@ -293,6 +293,7 @@ img {
 
 /* Footer */
 footer {
+    padding: 0 40px;
     margin-bottom: 20px;
 }
 
@@ -321,7 +322,9 @@ footer {
         margin-right: auto;
         margin-left: auto;
     }
+}
 
+@media(min-width: 1920px) {
     .divider {
         max-width: 75%;
     }
