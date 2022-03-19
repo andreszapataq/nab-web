@@ -1,3 +1,4 @@
+/* General */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
@@ -149,6 +150,11 @@ img {
     font-size: 25px;
 }
 
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
 .box-b img {
     width: 295px;
     height: auto;
@@ -269,6 +275,10 @@ img {
 
 .text-powered a {
     text-decoration: underline;
+}
+
+.contact-item a {
+    color: #fff;
 }
 
 /* Divider */
