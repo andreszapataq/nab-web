@@ -429,6 +429,15 @@ footer {
     .navbar {
         padding: 20px;
     }
+    
+    .navbar .navbar-menu,
+    .navbar .navbar-find-us {
+        display: none;
+    }
+    
+    .navbar-logo img {
+        width: 60px;
+    }
 
     .hamburger {
         display: block;
@@ -436,15 +445,7 @@ footer {
 
     .grid-col-2 {
         grid-template-columns: 1fr;
-    }
-
-    .navbar-logo img {
-        width: 60px;
-    }
-
-    .navbar .navbar-menu,
-    .navbar .navbar-find-us {
-        display: none;
+        gap: 0;
     }
 
     .box-d img {
@@ -454,9 +455,18 @@ footer {
     .box-e iframe {
         width: 100%;
     }
+    
+    .box-text-contact span {
+        margin-left: 20px;
+        font-size: 16px;
+    }
 
     footer {
         text-align: center;
+    }
+
+    footer p {
+        font-size: 15px;
     }
 }
 
