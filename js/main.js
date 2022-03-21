@@ -34,23 +34,19 @@ const addressIcon = document.getElementById('fa-building')
 const phoneIcon = document.getElementById('fa-mobile-screen-button')
 const emailIcon = document.getElementById('fa-envelope')
 
-function addFade() {
-    addressIcon.classList.add('fa-fade')
-    phoneIcon.classList.add('fa-fade')
-    emailIcon.classList.add('fa-fade')
+function addFade(icon) {
+    icon.classList.add('fa-fade')
 }
 
-function removeFade() {
-    addressIcon.classList.remove('fa-fade')
-    phoneIcon.classList.remove('fa-fade')
-    emailIcon.classList.remove('fa-fade')
+function removeFade(icon) {
+    icon.classList.remove('fa-fade')
 }
 
-addressItem.addEventListener('mouseover', addFade)
-addressItem.addEventListener('mouseout', removeFade)
+addressItem.addEventListener('mouseover', function() {addFade(addressIcon)})
+addressItem.addEventListener('mouseout', function() {removeFade(addressIcon)})
 
-phoneItem.addEventListener('mouseover', addFade)
-phoneItem.addEventListener('mouseout', removeFade)
+phoneItem.addEventListener('mouseover', function() {addFade(phoneIcon)})
+phoneItem.addEventListener('mouseout', function() {removeFade(phoneIcon)})
 
-emailItem.addEventListener('mouseover', addFade)
-emailItem.addEventListener('mouseout', removeFade)
+emailItem.addEventListener('mouseover', function() {addFade(emailIcon)})
+emailItem.addEventListener('mouseout', function() {removeFade(emailIcon)})
