@@ -472,6 +472,7 @@ footer {
     }
 }
 
+/* Desktop */
 @media(min-width: 1440px) {
     .box, .box-c {
         max-width: 1440px;
