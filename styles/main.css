@@ -470,6 +470,10 @@ footer {
     footer p {
         font-size: 15px;
     }
+
+    .text-powered a:hover {
+        color: #00A550;
+    }
 }
 
 /* Desktop */
