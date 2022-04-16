@@ -315,6 +315,10 @@ footer {
     color: #1877F2;
 }
 
+.powered a:hover {
+    color: #555;
+}
+
 /* Hamburger Menu Icon */
 .hamburger {
     cursor: pointer;
@@ -469,10 +473,6 @@ footer {
 
     footer p {
         font-size: 15px;
-    }
-
-    .text-powered a:hover {
-        color: #00A550;
     }
 }
 
